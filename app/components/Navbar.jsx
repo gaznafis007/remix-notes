@@ -1,5 +1,6 @@
 import { NavLink } from "@remix-run/react";
 
+
 const Navbar = () => {
     return (
         <nav className="flex flex-row justify-center space-x-6 text-xl py-4 font-semibold">
@@ -10,3 +11,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+

@@ -1,4 +1,4 @@
-import Button from "../components/Button";
+import Button, {btnLinks} from "../components/Button";
 
 const NotesPage = () => {
     const handleNoteSubmit = (event) =>{
@@ -41,3 +41,6 @@ const NotesPage = () => {
 };
 
 export default NotesPage;
+export function links(){
+    return [...btnLinks()]
+}
