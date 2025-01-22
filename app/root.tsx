@@ -34,16 +34,19 @@ export function Layout({ children }: { children: React.ReactNode }) {
       </head>
       <body>
         <Navbar/>
-        <div className="mx-6 md:mx-8">
+        
         {children}
         <ScrollRestoration />
         <Scripts />
-        </div>
       </body>
     </html>
   );
 }
 
 export default function App() {
-  return <Outlet />;
+  return (
+    <div className="mx-6 md:mx-8">
+      <Outlet />
+        </div>
+  );
 }
