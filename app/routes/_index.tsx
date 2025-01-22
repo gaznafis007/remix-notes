@@ -14,7 +14,7 @@ export default function Index() {
     navigate('/notes');
   }
   return (
-    <div className="mx-6 md:mx-8">
+    <div>
       <h2 className="text-6xl text-center text-purple-500 font-semibold">Remix Notes</h2>
       <p className="mt-4 text-white text-xl">This is an remix practice app where your all the notes will be taken care of
         and you can manage them efficiently. This app is built with Remix to provide a seamless experience for note-taking and organization. Enjoy using Remix Notes!
