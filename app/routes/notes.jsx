@@ -1,4 +1,6 @@
+import { redirect } from "@remix-run/node";
 import CreateNote from "../components/CreateNote";
+import { getNotes, updateNotes } from "../data";
 
 
 const NotesPage = () => {
@@ -24,6 +26,18 @@ const NotesPage = () => {
 
 export default NotesPage;
 
+export async function action ({request}){
+    const formData = await request.formData();
+    console.log(formData)
+    const noteData = Object.fromEntries(formData);
+    // can add validation here
+    const allNotes = await getNotes();
+    noteData.id = new Date().toISOString();
+    const updatedNotes = allNotes.concat(noteData);
+    await updateNotes(updatedNotes);
+    
+    return redirect('/')
+}
 // export function links (){
 //     return [...noteLinks()]
 // }
