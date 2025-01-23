@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import btnStyle from "./button.css";
+
 const Button = ({ children, handler, params }) => {
   return (
     <button
@@ -13,6 +13,3 @@ const Button = ({ children, handler, params }) => {
 
 export default Button;
 
-export function btnLinks() {
-  return [{ rel: "stylesheet", href: btnStyle }];
-}

@@ -47,6 +47,6 @@ export default function App() {
   return (
     <div className="mx-6 md:mx-8">
       <Outlet />
-        </div>
+    </div>
   );
 }
