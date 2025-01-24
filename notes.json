@@ -1,1 +1,60 @@
-{"notes":[{"title":"this is note title","author":"alex joe","date":"2024-09-11","description":"this is note content","id":"2025-01-23T13:46:51.531Z"},{"title":"This is second note","author":"balde allegri","date":"2024-06-21","description":"this is the description of second note","id":"2025-01-23T13:49:13.147Z"},{"title":"Need to learn Remix","author":"gazi nafis","date":"2025-01-01","description":"I learning remix from youtube using academia","id":"2025-01-23T14:23:49.423Z"},{"title":"Learn Vue","author":"author one","date":"2025-01-08","description":"Will start learning vue from tomorrow","id":"2025-01-23T14:25:12.037Z"},{"title":"Fourth Note","author":"Helena Rodriguez","date":"2025-01-05","description":"This is the content of fourth note","id":"2025-01-24T10:02:53.700Z"},{"title":"Note 6","author":"alex joe","date":"2025-01-03","description":"note of the note 6","id":"2025-01-24T10:08:48.142Z"}]}
+{
+    "notes": [
+        {
+            "title": "this is note title",
+            "author": "alex joe",
+            "date": "2024-09-11",
+            "description": "this is note content",
+            "id": "2025-01-23T13:46:51.531Z"
+        },
+        {
+            "title": "This is second note",
+            "author": "balde allegri",
+            "date": "2024-06-21",
+            "description": "this is the description of second note",
+            "id": "2025-01-23T13:49:13.147Z"
+        },
+        {
+            "title": "Need to learn Remix",
+            "author": "gazi nafis",
+            "date": "2025-01-01",
+            "description": "I learning remix from youtube using academia",
+            "id": "2025-01-23T14:23:49.423Z"
+        },
+        {
+            "title": "Learn Vue",
+            "author": "author one",
+            "date": "2025-01-08",
+            "description": "Will start learning vue from tomorrow",
+            "id": "2025-01-23T14:25:12.037Z"
+        },
+        {
+            "title": "Fourth Note",
+            "author": "Helena Rodriguez",
+            "date": "2025-01-05",
+            "description": "This is the content of fourth note",
+            "id": "2025-01-24T10:02:53.700Z"
+        },
+        {
+            "title": "Note 6",
+            "author": "alex joe",
+            "date": "2025-01-03",
+            "description": "note of the note 6",
+            "id": "2025-01-24T10:08:48.142Z"
+        },
+        {
+            "title": "Note Title",
+            "author": "balde allegri",
+            "date": "2025-01-19",
+            "description": "This is a note content\n",
+            "id": "2025-01-24T10:19:13.961Z"
+        },
+        {
+            "title": "This is a good note",
+            "author": "note author",
+            "date": "",
+            "description": "Note content",
+            "id": "2025-01-24T10:19:58.847Z"
+        }
+    ]
+}
